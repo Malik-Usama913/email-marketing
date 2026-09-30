@@ -1,0 +1,317 @@
+<!DOCTYPE html>
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <title>The Handoff That Closes Deals — Ijadi.io</title>
+  <!--[if mso]>
+  <noscript>
+    <xml>
+      <o:OfficeDocumentSettings>
+        <o:PixelsPerInch>96</o:PixelsPerInch>
+      </o:OfficeDocumentSettings>
+    </xml>
+  </noscript>
+  <![endif]-->
+  <style>
+    @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@600;700;800&family=Outfit:wght@300;400;500&display=swap');
+
+    * { margin: 0; padding: 0; box-sizing: border-box; }
+
+    body {
+      margin: 0;
+      padding: 0;
+      background-color: #0D0D12;
+      -webkit-text-size-adjust: 100%;
+      -ms-text-size-adjust: 100%;
+    }
+
+    table { border-spacing: 0; border-collapse: collapse; }
+    img { border: 0; display: block; outline: none; text-decoration: none; }
+
+    .email-wrapper {
+      width: 100%;
+      background-color: #0D0D12;
+      padding: 24px 16px;
+    }
+
+    .email-container {
+      max-width: 600px;
+      margin: 0 auto;
+      background-color: #13131A;
+      border-radius: 16px;
+      overflow: hidden;
+      border: 1px solid rgba(118, 108, 242, 0.15);
+    }
+
+    .header {
+      padding: 32px 32px 24px;
+      text-align: center;
+    }
+
+    .header img {
+      max-width: 120px;
+      height: auto;
+      margin: 0 auto;
+    }
+
+    .hero {
+      padding: 16px 32px 32px;
+      text-align: center;
+    }
+
+    .hero-badge {
+      display: inline-block;
+      background: rgba(118, 108, 242, 0.12);
+      border: 1px solid rgba(118, 108, 242, 0.3);
+      border-radius: 24px;
+      padding: 6px 16px;
+      font-family: 'Outfit', Arial, sans-serif;
+      font-size: 13px;
+      font-weight: 500;
+      color: #766CF2;
+      letter-spacing: 0.5px;
+      text-transform: uppercase;
+      margin-bottom: 24px;
+    }
+
+    .hero h1 {
+      font-family: 'Montserrat', Arial, sans-serif;
+      font-weight: 800;
+      font-size: 28px;
+      line-height: 1.2;
+      color: #FFFFFF;
+      margin-bottom: 16px;
+    }
+
+    .hero-accent {
+      background: linear-gradient(135deg, #766CF2, #00F5FF);
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;
+      background-clip: text;
+    }
+
+    .hero p {
+      font-family: 'Outfit', Arial, sans-serif;
+      font-size: 16px;
+      line-height: 1.6;
+      color: #DEDEDE;
+      font-weight: 300;
+      max-width: 480px;
+      margin: 0 auto;
+    }
+
+    .divider {
+      height: 1px;
+      background: linear-gradient(90deg, transparent, rgba(118, 108, 242, 0.3), transparent);
+      margin: 0 32px;
+    }
+
+    .feature-section {
+      padding: 32px;
+    }
+
+    .feature-card {
+      background: linear-gradient(135deg, rgba(118, 108, 242, 0.08), rgba(0, 245, 255, 0.04));
+      border: 1px solid rgba(118, 108, 242, 0.15);
+      border-radius: 12px;
+      padding: 28px 24px;
+      text-align: center;
+    }
+
+    .feature-emoji {
+      font-size: 40px;
+      margin-bottom: 16px;
+    }
+
+    .feature-card h2 {
+      font-family: 'Montserrat', Arial, sans-serif;
+      font-weight: 700;
+      font-size: 22px;
+      color: #FFFFFF;
+      margin-bottom: 16px;
+      line-height: 1.3;
+    }
+
+    .feature-card p {
+      font-family: 'Outfit', Arial, sans-serif;
+      font-size: 15px;
+      line-height: 1.65;
+      color: #DEDEDE;
+      font-weight: 300;
+      margin-bottom: 12px;
+    }
+
+    .benefit-callout {
+      margin-top: 20px;
+      padding: 16px 20px;
+      background: rgba(0, 245, 255, 0.06);
+      border-left: 3px solid #00F5FF;
+      border-radius: 0 8px 8px 0;
+      text-align: left;
+    }
+
+    .benefit-callout p {
+      font-family: 'Outfit', Arial, sans-serif;
+      font-size: 15px;
+      color: #00F5FF;
+      font-weight: 500;
+      margin: 0;
+      line-height: 1.5;
+    }
+
+    .cta-section {
+      padding: 8px 32px 40px;
+      text-align: center;
+    }
+
+    .cta-button {
+      display: inline-block;
+      background: linear-gradient(135deg, #766CF2, #3222E7);
+      color: #FFFFFF;
+      font-family: 'Montserrat', Arial, sans-serif;
+      font-weight: 700;
+      font-size: 15px;
+      text-decoration: none;
+      padding: 16px 36px;
+      border-radius: 8px;
+      letter-spacing: 0.3px;
+      min-width: 200px;
+      text-align: center;
+      box-shadow: 0 4px 20px rgba(118, 108, 242, 0.35);
+    }
+
+    .cta-subtext {
+      font-family: 'Outfit', Arial, sans-serif;
+      font-size: 13px;
+      color: rgba(222, 222, 222, 0.5);
+      margin-top: 12px;
+    }
+
+    .footer {
+      padding: 32px;
+      background: #0D0D12;
+      text-align: center;
+      border-top: 1px solid rgba(118, 108, 242, 0.1);
+    }
+
+    .footer p {
+      font-family: 'Outfit', Arial, sans-serif;
+      font-size: 13px;
+      line-height: 1.6;
+      color: rgba(222, 222, 222, 0.4);
+    }
+
+    .footer a {
+      color: #766CF2;
+      text-decoration: none;
+    }
+
+    .footer-logo {
+      max-width: 80px;
+      height: auto;
+      margin: 0 auto 16px;
+      opacity: 0.5;
+    }
+
+    .social-links {
+      margin: 16px 0;
+    }
+
+    .social-links a {
+      font-family: 'Outfit', Arial, sans-serif;
+      font-size: 13px;
+      color: rgba(222, 222, 222, 0.5);
+      text-decoration: none;
+      margin: 0 8px;
+    }
+
+    .unsubscribe {
+      margin-top: 16px;
+    }
+
+    .unsubscribe a {
+      font-family: 'Outfit', Arial, sans-serif;
+      font-size: 12px;
+      color: rgba(222, 222, 222, 0.35);
+      text-decoration: underline;
+    }
+
+    @media only screen and (max-width: 620px) {
+      .email-wrapper { padding: 16px !important; }
+      .header { padding: 24px 16px 16px !important; }
+      .hero { padding: 12px 16px 24px !important; }
+      .hero h1 { font-size: 24px !important; }
+      .hero p { font-size: 15px !important; }
+      .feature-section { padding: 24px 16px !important; }
+      .feature-card { padding: 24px 16px !important; }
+      .feature-card h2 { font-size: 20px !important; }
+      .cta-section { padding: 8px 16px 32px !important; }
+      .cta-button { padding: 14px 28px !important; font-size: 14px !important; }
+      .footer { padding: 24px 16px !important; }
+      .divider { margin: 0 16px !important; }
+    }
+  </style>
+</head>
+<body>
+  <div class="email-wrapper">
+    <table role="presentation" width="100%" cellpadding="0" cellspacing="0">
+      <tr>
+        <td align="center">
+          <div class="email-container">
+
+            <!-- Header / Logo -->
+            <div class="header">
+              <img src="https://ijadi.io/logo.png" alt="Ijadi.io" width="120">
+            </div>
+
+            <!-- Hero Section -->
+            <div class="hero">
+              <div class="hero-badge">⚡ AI Voice Agents</div>
+              <h1>The Handoff That <span class="hero-accent">Closes Deals</span></h1>
+              <p>Your highest-intent callers deserve a live closer — not a voicemail box. Ijadi's Live Call Transfers make sure they get one.</p>
+            </div>
+
+            <div class="divider"></div>
+
+            <!-- Feature Card -->
+            <div class="feature-section">
+              <div class="feature-card">
+                <div class="feature-emoji">📞</div>
+                <h2>Live Call Transfers</h2>
+                <p>Your AI employee qualifies every inbound caller in real time — screening for intent, urgency, and fit. The moment a caller is ready to move forward, the call transfers live to a human closer. No hold music. No callback delays. No lost momentum.</p>
+                <p>High-intent conversations reach your team while the opportunity is still warm — exactly when closing rates are highest.</p>
+
+                <div class="benefit-callout">
+                  <p>✅ Hot opportunities stay hot. Every qualified caller connects to your team in real time — not hours later.</p>
+                </div>
+              </div>
+            </div>
+
+            <!-- CTA -->
+            <div class="cta-section">
+              <a href="https://ijadi.io/demo" class="cta-button" target="_blank">Book a Demo</a>
+              <p class="cta-subtext">See Live Call Transfers in action — no commitment required.</p>
+            </div>
+
+            <!-- Footer -->
+            <div class="footer">
+              <img src="https://ijadi.io/logo.png" alt="Ijadi.io" class="footer-logo" width="80">
+              <p>Ijadi.io — AI Voice Employees for Service Businesses</p>
+              <p style="margin-top: 8px;"><a href="https://ijadi.io">ijadi.io</a> &nbsp;|&nbsp; <a href="mailto:support@ijadi.io">support@ijadi.io</a></p>
+
+              <div class="unsubscribe">
+                <a href="{{unsubscribe_url}}">Unsubscribe</a> &nbsp;|&nbsp; <a href="{{preferences_url}}">Manage Preferences</a>
+              </div>
+
+              <p style="margin-top: 16px; font-size: 11px;">Ijadi.io &bull; Austin, TX &bull; &copy; 2026 Ijadi. All rights reserved.</p>
+            </div>
+
+          </div>
+        </td>
+      </tr>
+    </table>
+  </div>
+</body>
+</html>
