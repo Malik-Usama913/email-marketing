@@ -1,0 +1,70 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="600" height="720" viewBox="0 0 600 720">
+  <defs>
+    <linearGradient id="ctaGrad" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" style="stop-color:#766CF2"/>
+      <stop offset="100%" style="stop-color:#38D0F5"/>
+    </linearGradient>
+    <filter id="cardShadow" x="-2%" y="-1%" width="104%" height="103%">
+      <feDropShadow dx="0" dy="4" stdDeviation="12" flood-color="#000000" flood-opacity="0.06"/>
+    </filter>
+  </defs>
+
+  <!-- Background -->
+  <rect width="600" height="720" rx="0" fill="#F4F5FB"/>
+
+  <!-- Card -->
+  <rect x="32" y="24" width="536" height="672" rx="12" fill="#FFFFFF" filter="url(#cardShadow)"/>
+
+  <!-- Logo placeholder -->
+  <text x="300" y="72" text-anchor="middle" font-family="Montserrat, Helvetica Neue, Arial, sans-serif" font-weight="700" font-size="20" fill="#0E1230">ijadi.io</text>
+
+  <!-- Divider -->
+  <line x1="64" y1="92" x2="536" y2="92" stroke="#E6E8F0" stroke-width="1"/>
+
+  <!-- Micro label -->
+  <text x="64" y="136" font-family="Outfit, Segoe UI, Arial, sans-serif" font-weight="500" font-size="11" letter-spacing="1" fill="#8A93B3">NEW FEATURE</text>
+
+  <!-- Headline -->
+  <text x="64" y="168" font-family="Montserrat, Helvetica Neue, Arial, sans-serif" font-weight="700" font-size="24" fill="#0E1230">Premium <tspan fill="#766CF2">Expressive Voice</tspan></text>
+  <text x="64" y="198" font-family="Montserrat, Helvetica Neue, Arial, sans-serif" font-weight="700" font-size="24" fill="#0E1230">for Your AI Voice Employee</text>
+
+  <!-- Body paragraph 1 -->
+  <text x="64" y="242" font-family="Outfit, Segoe UI, Arial, sans-serif" font-weight="400" font-size="14" fill="#0E1230">
+    <tspan x="64" dy="0">There's a reason callers hang up on automated voices.</tspan>
+    <tspan x="64" dy="22">They sound like machines. With Premium Expressive Voice,</tspan>
+    <tspan x="64" dy="22">Sarah and Lucas respond the way a real person would. They</tspan>
+    <tspan x="64" dy="22">laugh when something lands, show empathy when it counts,</tspan>
+    <tspan x="64" dy="22">and adjust their tone mid sentence without missing a beat.</tspan>
+  </text>
+
+  <!-- Body paragraph 2 -->
+  <text x="64" y="368" font-family="Outfit, Segoe UI, Arial, sans-serif" font-weight="400" font-size="14" fill="#0E1230">
+    <tspan x="64" dy="0">The difference is instant. Callers engage because the</tspan>
+    <tspan x="64" dy="22">conversation feels real.</tspan>
+  </text>
+
+  <!-- Benefit box background -->
+  <rect x="64" y="420" width="472" height="100" rx="12" fill="#F7F8FC"/>
+  <!-- Benefit box left border -->
+  <rect x="64" y="420" width="4" height="100" rx="2" fill="#766CF2"/>
+
+  <!-- Benefit label -->
+  <text x="88" y="448" font-family="Outfit, Segoe UI, Arial, sans-serif" font-weight="500" font-size="11" letter-spacing="1" fill="#8A93B3">KEY BENEFIT</text>
+
+  <!-- Benefit text -->
+  <text x="88" y="474" font-family="Montserrat, Helvetica Neue, Arial, sans-serif" font-weight="600" font-size="15" fill="#0E1230">
+    <tspan x="88" dy="0">Conversations that feel human close more business.</tspan>
+    <tspan x="88" dy="24">Higher engagement and more booked appointments.</tspan>
+  </text>
+
+  <!-- CTA Button -->
+  <rect x="186" y="548" width="228" height="48" rx="10" fill="url(#ctaGrad)"/>
+  <text x="300" y="578" text-anchor="middle" font-family="Montserrat, Arial, sans-serif" font-weight="600" font-size="15" fill="#FFFFFF">Text Us to Activate</text>
+
+  <!-- Footer divider -->
+  <line x1="64" y1="622" x2="536" y2="622" stroke="#E6E8F0" stroke-width="1"/>
+
+  <!-- Footer -->
+  <text x="300" y="652" text-anchor="middle" font-family="Outfit, Segoe UI, Arial, sans-serif" font-weight="400" font-size="14" fill="#766CF2">ijadi.io</text>
+  <text x="300" y="676" text-anchor="middle" font-family="Outfit, Segoe UI, Arial, sans-serif" font-weight="400" font-size="13" fill="#8A93B3">Unsubscribe</text>
+</svg>
